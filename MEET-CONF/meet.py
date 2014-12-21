@@ -1,0 +1,608 @@
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+def cool():
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+colors=["yellow","purple","red","blue","orange","black"]
+def cool():
+	global colors	
+	turtle.pencolor = Random.choice(colors)
+	if randint(1,2)==1:
+		print("!!!")
+		circle(randint(-250,250),randint(-250,250))
+	else:	
+		square(randint(-250,250),randint(-250,250))
+turtle.getscreen().onkeypress(cool,"space")
+
+turtle.onscreenclick(square, btn=3)
+turtle.ondrag(square)
+turtle.listen()
+turtle.mainloop()
+import turtle
+turtle.speed(0)
+from random import randint 
+def  circle(x,y ):
+	turtle.pencolor("brown")
+	turtle.color("brown")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.pendown()
+	turtle.begin_fill()
+	turtle.circle(15)
+	turtle.end_fill()
+
+
+turtle.onscreenclick(circle, add=True)
+turtle.ondrag(circle)
+turtle.pencolor("blue")
+turtle.color("red")
+def square(x,y):
+	turtle.pencolor("green")
+	turtle.color("green")
+	turtle.penup()
+	turtle.goto(x,y)
+	turtle.begin_fill()
+	turtle.pendown()
+	turtle.goto(x+20,y)
+	turtle.goto(x+20,y+20)
+	turtle.goto(x,y+20)
+	turtle.goto(x,y)
+	turtle.end_fill()
+turtle.ondrag(turtle.goto,add=True)
+
+a = random.choice(color)
+
+
+
